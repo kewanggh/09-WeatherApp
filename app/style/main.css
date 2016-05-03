@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px 20px 80px 20px;
+    font-family: 'Arvo', serif;
+}
+
+.jumbotron {
+    border-radius: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.leftcontainer {
+    border: 1px solid lightblue;
+    padding: 0;
+    /*width: 50%;*/
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.smlbox {
+    line-height: 3em;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+
+.rightcontainer {
+    border: 1px solid lightblue;
+    padding: 0;
+    /*width: 45%;*/
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.pcolor {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+#bn {
+    position: absolute;
+    top: 20%;
+    left: 85%;
+}
